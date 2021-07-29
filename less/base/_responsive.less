@@ -1,0 +1,950 @@
+@media all and (max-width: 1200px) {
+    // header
+    .header {
+        height: @header-size-1200;
+        &-top {
+            .add-padding { padding: 0 53px; }
+            .header-menu {
+                margin-top: 18px;
+        
+                // Bonfire logo
+                .head-left {
+                    img { width: 140px; }
+                }
+        
+                // handles icons: including cart and hamburger icon
+                .head-right {
+                    .cart { margin-right: 31px; }
+                    .navbar { padding-right: 9px; }
+                }
+            }
+        }
+
+        .social { 
+            right: 68px;
+            ul {
+                li {
+                    a {
+                        .font(@cor-gar-fonts, @weight-medium, @normal-style-font, 24px);
+                        :hover:before { width: 47px; }
+                    }
+                }
+            }
+        }
+
+        .primary-banner-content {
+            padding-left: 53px;
+            top: 215px;
+        
+            .primary-banner-content-caption {
+              width: 50%;
+        
+              // Spring 2017
+              p {
+                .font(@fira-sans-font, @weight-regular, @normal-style-font, 15px);
+                margin-bottom: 25px;
+                letter-spacing: 8px;
+              }
+        
+              // It's your shine time
+              h2 {
+                .font(@cor-gar-fonts, @weight-semi-bold, @italic-style-font, 63px);
+                letter-spacing: 19px;
+                line-height: 60px;
+              }
+            }
+        
+            .primary-banner-button {
+              margin-top: 45px;
+        
+              // Discover now
+              a {
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 10px);
+                padding: 9px 19px;
+                letter-spacing: 1px;
+              }
+            }
+        }
+    }
+    // end header
+
+    // strength
+    .strengths-wrapper {
+        height: 80px;
+        border-left: none;
+        border-right: none;
+    }
+    // end strength
+
+    // banner
+    .banner {
+        .title-section {
+            .font(@cor-gar-fonts, @weight-semi-bold, @normal-style-font, 22px);
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+      
+        .add-padding {padding: 0;}
+      
+        .col-sm {
+          .cols(25%, 50px);
+
+          img {height: 320px;}
+        }
+      
+        .col-lg {
+          .cols(50%, 50px);
+
+          img {height: 320px;}
+
+          &-inner-6 {
+            img {
+                margin-left: 37px;
+            }
+          }
+        }
+      }
+    // end banner
+}
+
+@media all and (max-width: 1024px) {
+    // header
+    .header {
+        height: @header-size-1024;
+
+        .social {
+            ul {
+                li {
+                    a {
+                        :hover:before { width: 47px; }
+                    }
+                }
+            }
+        }
+        
+        .primary-banner-content {
+            top: 183px;
+
+            .primary-banner-content-caption {
+                width: 60%;
+            }
+        }
+    }
+    // end header
+
+    // banner
+    .banner {
+        .col-sm {
+          .cols(25%, 50px);
+
+          img {height: 273px;}
+        }
+      
+        .col-lg {
+          .cols(50%, 50px);
+
+          img {height: 273px;}
+
+          &-inner-6 {
+            img {
+                margin-left: 33px;
+            }
+          }
+        }
+      }
+    // end banner
+
+    // feature items
+    .product {
+        margin-top: 50px;
+        padding-bottom: 70px;
+      
+        &-title {
+          h3 {
+            margin-bottom: 55px;
+      
+            a {
+              .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 35px);
+            }
+          }
+      
+          .view-more {
+            .font(@fira-sans-font, @weight-bold, @normal-style-font, 10px);
+          }
+        }
+      }
+      .product-col {
+        .cols(33.33%, 15px);
+      
+        &-inner {
+          .pro-img {
+      
+            .add-pro {
+                width: 88%;
+                bottom: 8px;
+      
+                li {
+                  padding: 5px;
+                }
+              }
+      
+              .add-to-cart {
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 12px);
+                width: 40%;
+              }
+            }
+          }
+      
+          .pro-info {
+            &-name {
+              padding: 6px 0 5px 4px;
+              margin: 0;
+              text-align: center;
+      
+              a {
+                .font(@fira-sans-font, @weight-regular, @normal-style-font, 13px);
+              }
+            }
+      
+            .price {
+              .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 16px);
+            }
+        }
+    }
+    // end feature items
+
+    // blog
+    .blogs {
+      .blogs-col {
+        .cols(33.33%, 15px);
+      
+        &-inner {
+      
+          &-content {
+      
+            .blog-date a {
+              .font(@fira-sans-font, @weight-regular, @normal-style-font, 12px);
+              color: @blog-date-color;
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+            }
+      
+            .blog-title {
+              a {
+                .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 20px);
+              }
+            }
+      
+            .blog-analytic {
+              .info {
+                display: inline-block;
+                line-height: 32px;
+                color: @ct-color;
+                .font(@fira-sans-font, @weight-regular, @normal-style-font, 12px);
+                color: @spring-2017-color;
+              }
+            }
+          }
+        }
+    }
+}
+    // end blog
+
+    // footer
+    .footer {
+      &-top{
+        .col-menu-ft{
+          &-inner {
+            ul{
+              li{
+                a{
+                  .font(@fira-sans-font, @weight-bold, @normal-style-font, 12px);
+                }
+              }
+            }
+          }
+        }
+    
+        .col-subscribe {
+          
+          &-inner {
+            a{
+              .font(@fira-sans-font, @weight-bold, @normal-style-font, 12px);
+            }
+          }
+        }
+      }
+    
+      &-bottom {
+    
+        .copyright {
+    
+          &-content {
+            .font(@fira-sans-font, @weight-regular, @normal-style-font, 12px);
+          }
+        }
+      }
+    }
+    // end footer
+}
+
+@media all and (max-width: 768px) {
+    // header
+    .header {
+        height: @header-size-768;
+        &-top {
+          .add-padding { padding: 0 34px; }
+          .header-menu {
+            margin-top: 12px;
+        
+            // Bonfire logo
+            .head-left {
+              img { width: 90px; }
+            }
+        
+            // handles icons: including cart and hamburger icon
+            .head-right {
+              .cart { margin-right: 20px; }
+              .navbar { padding-right: 6px; }
+            }
+          }
+        }
+
+        .social { 
+          right: 49px;
+          ul {
+            li {
+              a {
+                .font(@cor-gar-fonts, @weight-medium, @normal-style-font, 10px);
+                :hover:before { width: 29px; }
+              }
+            }
+          }
+        }
+
+        .primary-banner-content {
+          padding-left: 34px;
+          top: 137px;
+        
+          .primary-banner-content-caption {
+            width: 50%;
+        
+            // Spring 2017
+            p {
+              .font(@fira-sans-font, @weight-regular, @normal-style-font, 10px);
+              margin-bottom: 16px;
+              letter-spacing: 5px;
+            }
+        
+            // It's your shine time
+            h2 {
+              .font(@cor-gar-fonts, @weight-semi-bold, @italic-style-font, 40px);
+              letter-spacing: 12px;
+              line-height: 38px;
+            }
+          }
+        
+            .primary-banner-button {
+              margin-top: 29px;
+        
+              // Discover now
+              a {
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 7px);
+                padding: 6px 12px;
+              }
+            }
+        }
+    }
+    // end header
+
+    // strengths
+    .strengths-wrapper {
+        height: 60px;
+      }
+      
+      .col {
+        margin: 0;
+        
+        .col-inner {
+          margin-top: 20px;
+          height: 40px;
+      
+          // Strength header
+          h3 {
+            .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 14px);
+          }
+      
+          // Strength content
+          p {
+            .font(@fira-sans-font, @weight-regular, @normal-style-font, 10px);
+            color: @strength-line-two-color;
+            margin: 5px 0 0 0;
+          }
+        }
+      }
+    // end strengths
+
+    // banner
+    .banner {
+        .title-section {
+            .font(@cor-gar-fonts, @weight-semi-bold, @normal-style-font, 14px);
+            padding-top: 50px;
+            padding-bottom: 30px;
+            line-height: 25px;
+        }
+      
+        .col-sm {
+          img {height: 195px;}
+        }
+      
+        .col-lg {
+          img {height: 195px;}
+
+          &-inner-6 {
+            img {
+                margin-left: 30px;
+            }
+          }
+        }
+      }
+    // end banner
+
+    // feature items
+    .product {
+      margin-top: 30px;
+      padding-bottom: 50px;
+    
+      &-title {
+        h3 {
+          margin-bottom: 55px;
+        }
+      }
+    }
+    .product-col {
+      .cols(50%, 15px);
+    
+      &-inner {
+        align-content: center;
+
+        .pro-img {
+          margin-left: 50px;
+    
+          .add-pro {
+              width: 102%;
+    
+              .add-to-cart {
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 14px);
+                width: 51%;
+              }
+          } 
+        }
+      }
+    }
+  // end feature items
+
+  // blog
+  .blogs {
+    padding-bottom: 70px;
+  .blogs-title {
+    top: -58px;
+
+    h2 {
+      .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 40px);
+    }
+  }
+    .blogs-col {
+      .cols(33.33%, 15px);
+    
+      &-inner {
+    
+        &-content {
+    
+          .blog-date a {
+            .font(@fira-sans-font, @weight-regular, @normal-style-font, 9px);
+            letter-spacing: 0;
+          }
+    
+          .blog-title {
+            min-height: 80px;
+            a {
+              .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 13px);
+            }
+          }
+    
+          .blog-analytic {
+            padding-top: 0;
+            .info {
+              line-height: 25px;
+              .font(@fira-sans-font, @weight-regular, @normal-style-font, 10px);
+
+              span {
+                padding-left: 5px;
+                padding-right: 10px;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+  // end blog
+
+  // branding
+  #first-brand {
+    // total width = 354
+    // total height = 105
+    padding: 20px 120px 25px 120px;
+    height: 60px;
+    width: 114px;
+  }
+  
+  #second-brand {
+    padding: 20px 111px 30px 111px;
+    height: 55px;
+    width: 132px;
+  }
+  
+  #third-brand {
+    padding: 20px 121px 33px 121px;
+    height: 52px;
+    width: 112px;
+  }
+  
+  #fourth-brand {
+    padding: 20px 118px 5px 118px;
+    height: 80px;
+    width: 118px;
+  }
+  
+  #fifth-brand {
+    padding: 20px 122px 11px 122px;
+    height: 74px;
+    width: 110px;
+  }
+  
+  #sixth-brand {
+    padding: 20px 99px 40px 99px;
+    height: 45px;
+    width: 156px;
+  }
+  // end branding
+
+  // footer
+  .footer {
+    height: 300px;
+    &-top{
+      .col-logo-ft{
+        &-inner {
+          img {
+            width: 120px;
+          }
+        }
+      }
+
+      .col-menu-ft{
+        .cols(60%, 0);
+        &-inner {
+          ul{
+            padding-top: 30px;
+            padding-left: 50px;
+            li{
+              padding-right: 15px;
+              a{
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 10px);
+              }
+            }
+          }
+        }
+      }
+  
+      .col-subscribe {
+        margin-top: 30px;
+        
+        &-inner {
+          a{
+            .font(@fira-sans-font, @weight-bold, @normal-style-font, 10px);
+            padding: 5px 12px;
+          }
+        }
+      }
+    }
+  
+    &-bottom {
+      padding-top: 80px;
+      padding-bottom: 20px;
+      .copyright {
+  
+        &-content {
+          .font(@fira-sans-font, @weight-regular, @normal-style-font, 12px);
+        }
+      }
+
+      .text-right {
+        .footer-social li {
+          a {
+            width: 36px;
+            height: 22px;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  // end footer
+}
+
+
+@media all and (max-width: 576px) {
+    // header
+    .header {
+        height: @header-size-576;
+
+        .primary-banner-content {
+            padding-left: 34px;
+            top: 103px;
+        
+            .primary-banner-content-caption {
+              width: 50%;
+        
+              // Spring 2017
+              p {
+                .font(@fira-sans-font, @weight-regular, @normal-style-font, 8px);
+                margin-bottom: 16px;
+                letter-spacing: 5px;
+              }
+        
+              // It's your shine time
+              h2 {
+                .font(@cor-gar-fonts, @weight-semi-bold, @italic-style-font, 30px);
+                letter-spacing: 9px;
+                line-height: 29px;
+              }
+            }
+        
+            .primary-banner-button {
+              margin-top: 22px;
+        
+              // Discover now
+              a {
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 5px);
+                padding: 5px 9px;
+              }
+            }
+        }
+    }
+    // end header
+
+    // strengths
+    .strengths-wrapper {
+        height: 50px;
+      }
+      
+      .col {
+        .col-inner {
+          margin-top: 20px;
+          height: 30px;
+      
+          // Strength header
+          h3 {
+            .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 9px);
+          }
+      
+          // Strength content
+          p {
+            .font(@fira-sans-font, @weight-regular, @normal-style-font, 7px);
+            color: @strength-line-two-color;
+            margin: 3px 0 0 0;
+          }
+        }
+      }
+    // end strengths
+
+     // banner
+     .banner {
+      
+        .col-sm {
+          img {height: 136px;}
+        }
+      
+        .col-lg {
+          img {height: 136px;}
+        }
+      }
+    // end banner
+
+    // feature items
+    .product {
+    
+      &-title {
+        h3 {
+          margin-bottom: 40px;
+        }
+      }
+    }
+    .product-col {
+    
+      &-inner {
+        align-content: center;
+
+        .pro-img {
+          margin-left: 0;
+    
+          .add-pro {
+              width: 112%;
+    
+              .add-to-cart {
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 14px);
+                width: 55%;
+              }
+          } 
+        }
+      }
+    }
+  // end feature items
+
+  // blog
+  .blogs {
+    padding-bottom: 70px;
+    .blogs-col {
+      .cols(33.33%, 15px);
+    
+      &-inner {
+    
+        &-content {
+    
+          .blog-date a {
+            .font(@fira-sans-font, @weight-regular, @normal-style-font, 5px);
+            letter-spacing: 0;
+          }
+    
+          .blog-title {
+            min-height: 100px;
+            a {
+              .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 10px);
+            }
+          }
+    
+          .blog-analytic {
+            .info {
+              line-height: 25px;
+              .font(@fira-sans-font, @weight-regular, @normal-style-font, 8px);
+
+              span {
+                padding-left: 2px;
+                padding-right: 5px;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+  // end blog
+
+  #first-brand {
+    // total width = 258
+    // total height = 105
+    padding: 20px 72px 25px 72px;
+  }
+  
+  #second-brand {
+    padding: 20px 63px 30px 63px;
+  }
+  
+  #third-brand {
+    padding: 20px 73px 33px 73px;
+  }
+  
+  #fourth-brand {
+    padding: 20px 70px 5px 70px;
+  }
+  
+  #fifth-brand {
+    padding: 20px 74px 11px 74px;
+  }
+  
+  #sixth-brand {
+    padding: 20px 51px 40px 51px;
+  }
+  // end branding
+
+  // footer
+  .footer {
+    height: 260px;
+    &-top{
+      .col-logo-ft{
+        &-inner {
+          img {
+            width: 90px;
+          }
+        }
+      }
+
+      .col-menu-ft{
+        &-inner {
+          ul{
+            padding-top: 15px;
+            padding-left: 20px;
+            li{
+              padding-right: 10px;
+              a{
+                .font(@fira-sans-font, @weight-bold, @normal-style-font, 8px);
+              }
+            }
+          }
+        }
+      }
+  
+      .col-subscribe {
+        margin-top: 13px;
+        
+        &-inner {
+          a{
+            .font(@fira-sans-font, @weight-bold, @normal-style-font, 8px);
+            padding: 3px 8px;
+            letter-spacing: 0;
+          }
+
+          span {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  
+    &-bottom {
+      padding-top: 60px;
+      padding-bottom: 10px;
+      .copyright {
+        &-content {
+          .font(@fira-sans-font, @weight-regular, @normal-style-font, 10px);
+        }
+      }
+
+      .text-right {
+        .footer-social li {
+          a {
+            width: 31px;
+            height: 17px;
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+  // end footer
+}
+
+
+// @media all and (max-width: 375px) {
+//     // header
+//     .header {
+//         height: @header-size-375;
+//         &-top {
+//             .add-padding { padding: 0 17px; }
+//             .header-menu {
+//                 // handles icons: including cart and hamburger icon
+//                 .head-right {
+//                     .cart { margin-right: 10px; }
+//                     .navbar { padding-right: 3px; }
+//                 }
+//             }
+//         }
+
+//         .social { 
+//             right: 32px;
+//             ul {
+//                 li {
+//                     a {
+//                         .font(@cor-gar-fonts, @weight-medium, @normal-style-font, 5px);
+//                         :hover:before { width: 12px; }
+//                     }
+//                 }
+//             }
+//         }
+
+//         .primary-banner-content {
+//             padding-left: 17px;
+//             top: 67px;
+        
+//             .primary-banner-content-caption {
+//               width: 50%;
+        
+//               // Spring 2017
+//               p {
+//                 .font(@fira-sans-font, @weight-regular, @normal-style-font, 5px);
+//                 margin-bottom: 8px;
+//                 letter-spacing: 3px;
+//               }
+        
+//               // It's your shine time
+//               h2 {
+//                 .font(@cor-gar-fonts, @weight-semi-bold, @italic-style-font, 20px);
+//                 letter-spacing: 6px;
+//                 line-height: 19px;
+//               }
+//             }
+        
+//             .primary-banner-button {
+//               margin-top: 14px;
+        
+//               // Discover now
+//               a {
+//                 .font(@fira-sans-font, @weight-bold, @normal-style-font, 3px);
+//                 padding: 3px 6px;
+//               }
+//             }
+//         }
+//     }
+//     // end header
+
+//     // strengths
+//     .strengths-wrapper {
+//         height: 40px;
+//       }
+      
+//       .col {
+//         .col-inner {
+//           margin-top: 10px;
+//           height: 30px;
+      
+//           // Strength header
+//           h3 {
+//             .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 6px);
+//           }
+      
+//           // Strength content
+//           p {
+//             .font(@fira-sans-font, @weight-regular, @normal-style-font, 4px);
+//             margin: 3px 0 0 0;
+//           }
+//         }
+//       }
+//     // end strengths
+
+//     // banner
+//     .banner {
+//         .title-section {
+//             .font(@cor-gar-fonts, @weight-semi-bold, @normal-style-font, 10px);
+//             padding-top: 40px;
+//             padding-bottom: 20px;
+//             line-height: 20px;
+//             width: 55%;
+//         }
+      
+//         .col-sm {
+//           img {height: 70px;}
+//         }
+      
+//         .col-lg {
+//           img {height: 70px;}
+
+//           &-inner-6 {
+//             img {
+//                 margin-left: 20px;
+//             }
+//           }
+//         }
+//       }
+//     // end banner
+// }

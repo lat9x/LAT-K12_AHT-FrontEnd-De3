@@ -1,0 +1,145 @@
+.header {
+  // handles background
+  height: @header-size-1920;
+  position: relative;
+  background-image: url('../img/banner-primary.png');
+  background-size: cover;
+
+  // wrapping the header top
+  &-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    .add-padding {
+      padding: 0 85px;
+    }
+
+    .header-menu {
+      height: fit-content;
+      margin-top: 28px;
+      background-color: @transparent-black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      // Bonfire logo
+      .head-left {
+        img {
+          width: 164px;
+        }
+      }
+
+      // handles icons: including cart and hamburger icon
+      .head-right {
+        color: @white;
+        display: flex;
+        
+        .cart {
+          margin-right: 49px;
+        }
+
+        .navbar {
+          padding-right: 11px;
+        }
+
+        i {
+          color: @white;
+        }
+      }
+    }
+  }
+
+  // social info in front of the primary banner
+  .social {
+    position: absolute;
+    right: 100px;
+    text-align: right;
+    top: 50%;
+    z-index: 1;
+    .transform(translateY(-50%));
+
+    ul {
+      li {
+        a {
+          .font(@cor-gar-fonts, @weight-medium, @normal-style-font, 24px);
+          color: @white;
+          display: block;
+          letter-spacing: 0.1em;
+          padding: 6px 0;
+          position: relative;
+
+          :hover:before {
+            width: 80px;
+          }
+
+          :hover {
+            color: @black;
+          }
+        }
+
+        :before {
+          position: absolute;
+          content: "";
+          border-top: 1px solid @social-list-border-color;
+          width: 0;
+          left: calc(100% + 20px);
+          top: 60%;
+          transition: all 0.3s ease-in-out 0s;
+        }
+      }
+    }
+  }
+
+  // content in front of the primary banner, including text and button
+  .primary-banner-content {
+    position: absolute;
+    top: 344px;
+    width: 100%;
+
+    .primary-banner-content-caption {
+      width: 75%;
+
+      // Spring 2017
+      p {
+        .font(@fira-sans-font, @weight-regular, @normal-style-font, 24px);
+        margin-top: 0;
+        margin-bottom: 40px;
+        letter-spacing: 13px;
+        word-spacing: 1px;
+        color: @spring-2017-color;
+      }
+
+      // It's your shine time
+      h2 {
+        .font(@cor-gar-fonts, @weight-semi-bold, @italic-style-font, 100px);
+        text-transform: uppercase;
+        letter-spacing: 30px;
+        line-height: 95px;
+        margin: 0;
+        color: @social-list-border-color;
+      }
+    }
+
+    .primary-banner-button {
+      margin-top: 73px;
+
+      // Discover now
+      a {
+        .font(@fira-sans-font, @weight-bold, @normal-style-font, 16px);
+        padding: 14px 30px;
+        background-color: #000;
+        text-transform: uppercase;
+        color: @white;
+
+        letter-spacing: 2px;
+        word-spacing: 1px;
+
+        &:hover {
+          background-color: @btn-hover-color;
+          color: @black;
+        }
+      }
+    }
+  }
+}

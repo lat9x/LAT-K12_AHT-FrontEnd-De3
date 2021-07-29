@@ -1,0 +1,48 @@
+
+.strengths-wrapper {
+  height: 80px;
+  border-left: 2px solid @strength-border-color;
+  border-right: 2px solid @strength-border-color;
+}
+
+.border-right {
+  border-right: 2px solid @strength-border-color;
+}
+
+.col {
+  .cols(33%, 0px);
+  margin-left: 2px;
+  margin-right: 1px;
+
+  .extra-second-strength {
+    margin-right: 3px;
+    margin-left: 8px;
+  }
+
+  .extra-third-strength {
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+  
+  .col-inner {
+    text-align: center;
+    margin-top: 20px;
+    height: 60px;
+
+    // Strength header
+    h3 {
+      .font(@cor-gar-fonts, @weight-bold, @normal-style-font, 18px);
+      text-transform: uppercase;
+      color: @social-list-border-color;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    // Strength content
+    p {
+      .font(@fira-sans-font, @weight-regular, @normal-style-font, 14px);
+      color: @strength-line-two-color;
+      margin: 9px 0 0 0;
+    }
+  }
+}

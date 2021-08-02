@@ -915,6 +915,9 @@ img {
     font-size: 12px;
     color: #696969;
   }
+  .footer-top .col-menu-ft-inner ul {
+    padding-left: 35px;
+  }
   .footer-top .col-menu-ft-inner ul li a {
     font-family: 'Fira Sans';
     font-weight: 700;

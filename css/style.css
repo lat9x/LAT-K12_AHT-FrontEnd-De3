@@ -58,6 +58,10 @@ ul {
 ul li {
   list-style: none;
 }
+img {
+  max-width: 100%;
+  overflow: hidden;
+}
 .container {
   max-width: 1200px;
   width: 100%;
@@ -79,7 +83,7 @@ ul li {
   height: 1000px;
   position: relative;
   background-image: url('../img/banner-primary.png');
-  background-size: cover;
+  background-position: right 30% top;
 }
 .header-top {
   position: absolute;
@@ -130,7 +134,7 @@ ul li {
   font-weight: 500;
   font-style: normal;
   font-size: 24px;
-  color: #fff;
+  color: #eae6d3;
   display: block;
   letter-spacing: 0.1em;
   padding: 6px 0;
@@ -140,7 +144,7 @@ ul li {
   width: 80px;
 }
 .header .social ul li a :hover {
-  color: #000;
+  color: #fff;
 }
 .header .social ul li :before {
   position: absolute;
@@ -154,7 +158,10 @@ ul li {
 .header .primary-banner-content {
   position: absolute;
   top: 344px;
-  width: 100%;
+  width: 95%;
+}
+.header .primary-banner-content .add-padding {
+  padding-right: 85px;
 }
 .header .primary-banner-content .primary-banner-content-caption {
   width: 75%;
@@ -199,6 +206,9 @@ ul li {
 .header .primary-banner-content .primary-banner-button a:hover {
   background-color: #d6ba8d;
   color: #000;
+}
+.parent-container {
+  border-bottom: 2px solid #efefef;
 }
 .strengths-wrapper {
   height: 80px;

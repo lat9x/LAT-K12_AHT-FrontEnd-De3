@@ -80,25 +80,27 @@ require_once "info-list.php";
         <!-- End header/primary banner -->
 
         <!-- Strength -->
-        <div class="container">
-            <div class="strengths-wrapper">
-                <div class="row">
-                    <div class="col border-right">
-                        <div class="col-inner">
-                            <h3>Free shipping</h3>
-                            <p>All order over $300</p>
+        <div class="parent-container">
+            <div class="container">
+                <div class="strengths-wrapper">
+                    <div class="row">
+                        <div class="col border-right">
+                            <div class="col-inner">
+                                <h3>Free shipping</h3>
+                                <p>All order over $300</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col border-right">
-                        <div class="col-inner extra-second-strength">
-                            <h3>Support customer</h3>
-                            <p>Support 24/7</p>
+                        <div class="col border-right">
+                            <div class="col-inner extra-second-strength">
+                                <h3>Support customer</h3>
+                                <p>Support 24/7</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="col-inner extra-third-strength">
-                            <h3>Secure payments</h3>
-                            <p>Support 24/7</p>
+                        <div class="col">
+                            <div class="col-inner extra-third-strength">
+                                <h3>Secure payments</h3>
+                                <p>Support 24/7</p>
+                            </div>
                         </div>
                     </div>
                 </div>

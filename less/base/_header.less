@@ -3,7 +3,8 @@
   height: @header-size-1920;
   position: relative;
   background-image: url('../img/banner-primary.png');
-  background-size: cover;
+  // background-size: cover;
+  background-position: right 30% top;
 
   // wrapping the header top
   &-top {
@@ -63,7 +64,7 @@
       li {
         a {
           .font(@cor-gar-fonts, @weight-medium, @normal-style-font, 24px);
-          color: @white;
+          color: @social-color;
           display: block;
           letter-spacing: 0.1em;
           padding: 6px 0;
@@ -74,7 +75,7 @@
           }
 
           :hover {
-            color: @black;
+            color: @white;
           }
         }
 
@@ -95,7 +96,11 @@
   .primary-banner-content {
     position: absolute;
     top: 344px;
-    width: 100%;
+    width: 95%;
+
+    .add-padding {
+      padding-right: 85px;
+    }
 
     .primary-banner-content-caption {
       width: 75%;
@@ -128,7 +133,7 @@
       a {
         .font(@fira-sans-font, @weight-bold, @normal-style-font, 16px);
         padding: 14px 30px;
-        background-color: #000;
+        background-color: @black;
         text-transform: uppercase;
         color: @white;
 

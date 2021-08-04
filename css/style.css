@@ -269,15 +269,18 @@ ul li {
   font-size: 34px;
   width: 45%;
   font-weight: 600;
-  padding: 125px 0;
+  padding-top: 112px;
+  padding-bottom: 122px;
   text-align: center;
 }
 .banner__around {
   display: flex;
-  margin: 0 0 50px 0;
+  margin: 0 0 42px 0;
 }
 .banner__around .bn1 {
   width: calc(100% * 395 / 1720);
+  margin-left: -1px;
+  margin-top: -1px;
 }
 .banner__around .bn1 .bn-pro-info {
   position: absolute;
@@ -350,15 +353,15 @@ ul li {
 .banner__around--item .wrap-img {
   overflow: hidden;
 }
-.banner__around--item .collap-sale {
+.banner__around--item .collapse-sale {
   position: absolute;
-  top: 17%;
-  right: 40px;
+  top: 88px;
+  right: 35px;
   text-align: center;
   padding: 37px 30px 0;
   border: 4px solid #fff;
 }
-.banner__around--item .collap-sale .s1 {
+.banner__around--item .collapse-sale .s1 {
   font-size: 18px;
   letter-spacing: 4px;
   margin: 3px -2px 15px 0px;
@@ -366,7 +369,7 @@ ul li {
   font-weight: 400;
   color: #333;
 }
-.banner__around--item .collap-sale .s2 {
+.banner__around--item .collapse-sale .s2 {
   font-size: 100px;
   margin: 0;
   line-height: 1;
@@ -375,7 +378,7 @@ ul li {
   font-weight: 700;
   padding-bottom: 5px;
 }
-.banner__around--item .collap-sale h3 {
+.banner__around--item .collapse-sale h3 {
   font-size: 24px;
   line-height: 64px;
   margin: 0;
@@ -384,7 +387,7 @@ ul li {
   padding-bottom: 24px;
   color: #696969;
 }
-.banner__around--item .collap-sale .shop-now {
+.banner__around--item .collapse-sale .shop-now {
   font-size: 14px;
   letter-spacing: 3px;
   line-height: 64px;
@@ -395,9 +398,9 @@ ul li {
 }
 .banner__around--item .content-bn {
   position: absolute;
-  top: 44%;
+  top: 238px;
   transform: translateY(-50%);
-  left: 48px;
+  left: 52px;
   width: 260px;
 }
 .banner__around--item .content-bn h3 {
@@ -411,7 +414,7 @@ ul li {
 .banner__around--item .content-bn p {
   width: 210px;
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
   line-height: 24px;
   margin: 20px 3px;
   color: #696969;
@@ -437,12 +440,14 @@ ul li {
 }
 .banner__around2 .bn5 {
   width: calc(100% * 395 / 1720);
+  margin-top: -3px;
+  margin-left: -4px;
 }
 .banner__around2 .bn5 .bn-pro-info {
   position: absolute;
-  bottom: 8%;
+  bottom: 39px;
   text-align: center;
-  left: 49%;
+  left: 197px;
   transform: translateX(-50%);
   width: 100%;
   padding: 0 25px;
@@ -483,7 +488,7 @@ ul li {
 }
 .product__title {
   padding: 0 15px;
-  margin-top: 90px;
+  margin-top: 96px;
   position: relative;
   margin-bottom: 80px;
   width: 100%;
@@ -626,7 +631,7 @@ ul li {
 }
 .blogs .title-blogs {
   position: absolute;
-  top: -66px;
+  top: -69px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -670,7 +675,7 @@ ul li {
   line-height: 32px;
   font-size: 14px;
   color: #8f8f8f;
-  padding-right: 23px;
+  padding-right: 22px;
   font-family: FiraSans;
 }
 .blogs .blogs-all__item--content .blog-analytic .info ion-icon {
@@ -694,13 +699,14 @@ ul li {
 }
 .blogs .go-to-blog {
   text-align: center;
-  padding-top: 70px;
+  padding-top: 67px;
 }
 .blogs .go-to-blog a {
   font-size: 24px;
   line-height: 28px;
   color: #3f3f3f;
   padding: 0 22px;
+  margin-left: -4px;
   font-family: CormorantGaramond;
   font-weight: 400;
   background: -webkit-linear-gradient(top, transparent 50%, #ffffff 50%);
@@ -711,6 +717,8 @@ ul li {
   box-sizing: border-box;
   margin: 0;
   margin-bottom: 0px;
+  padding-top: 32px;
+  padding-bottom: 16px;
 }
 .partner .container .row .partner-col-inner img {
   opacity: 30%;
@@ -727,6 +735,7 @@ ul li {
   padding: 67px 15px;
 }
 .footer__top .logo-ft {
+  margin-top: -4px;
   width: 15%;
 }
 .footer__top .menu-ft {
@@ -758,7 +767,7 @@ ul li {
   color: #d6ba8d;
 }
 .footer__top .subcribe {
-  margin-top: 80px;
+  margin-top: 81px;
   text-align: right;
   width: 15%;
 }
@@ -768,7 +777,7 @@ ul li {
   border: 1px 1px 2px 1px;
   border: solid;
   border-bottom: 2px solid;
-  padding: 9px 20px;
+  padding: 11px 18px;
   font-size: 14px;
   font-family: FiraSans;
   font-weight: 600;
@@ -791,7 +800,7 @@ ul li {
   border-top: 1px solid rgba(36, 36, 36, 0.5);
   padding-top: 40px;
   padding-left: 15px;
-  padding-bottom: 41px;
+  padding-bottom: 73px;
   padding-right: 15px;
 }
 .footer__bottom .copyright {
@@ -868,10 +877,12 @@ ul li {
     padding: 100px 0;
   }
   .banner__around {
-    margin: 0 -15px 50px -15px;
+    margin: 0 -15px 42px -15px;
   }
   .banner__around .bn1 {
     width: 25%;
+    margin-left: 0;
+    margin-top: 0;
   }
   .banner__around .bn2 {
     width: 50%;
@@ -897,20 +908,28 @@ ul li {
     padding: 0 15px;
     margin: 0;
   }
-  .banner__around--item .collap-sale .s1 {
+  .banner__around--item .collapse-sale {
+    top: 17%;
+    right: 40px;
+  }
+  .banner__around--item .collapse-sale .s1 {
     font-size: 10px;
   }
-  .banner__around--item .collap-sale .s2 {
+  .banner__around--item .collapse-sale .s2 {
     font-size: 70px;
     margin: 15px;
   }
-  .banner__around--item .collap-sale h3 {
+  .banner__around--item .collapse-sale h3 {
     padding-bottom: 10px;
     font-size: 12px;
     line-height: 10px;
   }
-  .banner__around--item .collap-sale .shop-now {
+  .banner__around--item .collapse-sale .shop-now {
     line-height: 65px;
+  }
+  .banner__around--item .content-bn {
+    top: 44%;
+    left: 48px;
   }
   .banner__around--item .content-bn h3 {
     font-size: 45px;
@@ -927,10 +946,22 @@ ul li {
   }
   .banner__around2 .bn5 {
     width: 25%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .banner__around2 .bn5 .bn-pro-info {
+    bottom: 8%;
+    left: 49%;
   }
   .banner__around2--item {
     padding: 0 15px;
     margin: 0;
+  }
+  .blogs .go-to-blog a {
+    margin-left: 0;
+  }
+  .footer__top .logo-ft {
+    margin-top: 0;
   }
 }
 @media all and (max-width: 1200px) {
@@ -1019,19 +1050,19 @@ ul li {
   .banner__around .bn3 .bn-ct h3 {
     font-size: 40px;
   }
-  .banner__around--item .collap-sale .s1 {
+  .banner__around--item .collapse-sale .s1 {
     font-size: 10px;
   }
-  .banner__around--item .collap-sale .s2 {
+  .banner__around--item .collapse-sale .s2 {
     font-size: 70px;
     margin: 15px;
   }
-  .banner__around--item .collap-sale h3 {
+  .banner__around--item .collapse-sale h3 {
     padding-bottom: 10px;
     font-size: 12px;
     line-height: 10px;
   }
-  .banner__around--item .collap-sale .shop-now {
+  .banner__around--item .collapse-sale .shop-now {
     line-height: 65px;
   }
   .banner__around--item .content-bn h3 {
@@ -1169,22 +1200,22 @@ ul li {
   .banner__around .bn3 .bn-ct h3 {
     font-size: 25px;
   }
-  .banner__around--item .collap-sale {
+  .banner__around--item .collapse-sale {
     padding: 5px 10px 0;
   }
-  .banner__around--item .collap-sale .s1 {
+  .banner__around--item .collapse-sale .s1 {
     font-size: 10px;
   }
-  .banner__around--item .collap-sale .s2 {
+  .banner__around--item .collapse-sale .s2 {
     font-size: 35px;
     margin: 15px;
   }
-  .banner__around--item .collap-sale h3 {
+  .banner__around--item .collapse-sale h3 {
     padding-bottom: 10px;
     font-size: 12px;
     line-height: 10px;
   }
-  .banner__around--item .collap-sale .shop-now {
+  .banner__around--item .collapse-sale .shop-now {
     line-height: 30px;
   }
   .banner__around--item .content-bn h3 {
@@ -1331,22 +1362,22 @@ ul li {
     padding: 0;
     margin-bottom: 15px;
   }
-  .banner__around--item .collap-sale {
+  .banner__around--item .collapse-sale {
     top: 20px;
     padding-bottom: 0;
   }
-  .banner__around--item .collap-sale .s1 {
+  .banner__around--item .collapse-sale .s1 {
     font-size: 10px;
   }
-  .banner__around--item .collap-sale .s2 {
+  .banner__around--item .collapse-sale .s2 {
     font-size: 40px;
   }
-  .banner__around--item .collap-sale h3 {
+  .banner__around--item .collapse-sale h3 {
     padding-bottom: 10px;
     font-size: 12px;
     line-height: 10px;
   }
-  .banner__around--item .collap-sale a {
+  .banner__around--item .collapse-sale a {
     line-height: 30px;
   }
   .banner__around--item .content-bn {

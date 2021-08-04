@@ -519,14 +519,21 @@
   }
 }
 .partner {
-  &__all {
-    padding: 33px 0px 19px;
-    .partner__item {
-      img {
-        opacity: 30%;
-        margin: 0 auto;
-        &:hover {
-          opacity: 100%;
+  .container {
+    .row {
+      .partner-col {
+        .cols(16.667%, 0px);
+
+        &-inner {
+
+          img {
+            opacity: 30%;
+            margin: 0 auto;
+            width: 100%;
+            &:hover {
+              opacity: 100%;
+            }
+          }
         }
       }
     }
